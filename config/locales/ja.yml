@@ -1,0 +1,23 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ja:
+  activerecord:
+    models:
+      member: 会員情報
+    attributes:
+      member:
+        number: 背番号
+        name: ニックネーム
+        full_name: 氏名
+        gender: 性別
+        gender_0: 男
+        gender_1: 女
+        birthday: 誕生日
+        email: メールアドレス
+        administrator: 管理者
+
+    errors:
+      messages:
+        invalid_member_name: "は半角英数字で入力してください。"
+        expired_at_too_old: "は掲載開始日より新しい日時にしてください。"
