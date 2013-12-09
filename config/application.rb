@@ -61,3 +61,6 @@ module Asagao
     config.assets.version = '1.0'
   end
 end
+
+# for Heroku
+config.assets.initialize_on_precompile = false
