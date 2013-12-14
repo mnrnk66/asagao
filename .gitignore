@@ -16,4 +16,5 @@ doc/
 .DS_Store
 .idea
 
-/vendor/bundle/
+# Ignore vendor/bundle
+vendor/bundle
