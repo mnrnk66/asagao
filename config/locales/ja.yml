@@ -5,6 +5,7 @@ ja:
   activerecord:
     models:
       member: 会員情報
+      article: ニュース記事
     attributes:
       member:
         number: 背番号
@@ -16,6 +17,14 @@ ja:
         birthday: 誕生日
         email: メールアドレス
         administrator: 管理者
+      
+      article:
+        title: タイトル
+        body: 本文
+        released_at: 掲載開始日
+        expired_at: 掲載終了日
+        no_expiration: 掲載終了日を設定しない
+        member_only: 会員限定
 
     errors:
       messages:

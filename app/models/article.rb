@@ -20,7 +20,7 @@ class Article < ActiveRecord::Base
 
   # 掲載終了日時がブランクならtrue
   def no_expiration
-    expiration_at.brank?
+    expired_at.blank?
   end
 
   # 引数が true、1、文字列の1のどれかなら @no_expirationをtrueに、そうでなければfalseに設定
